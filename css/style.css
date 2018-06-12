@@ -18,7 +18,7 @@ html, button, input, select, textarea,
   font-family: "PingFangSC-Regular", Helvetica, "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", sans-serif !important; }
 
 body {
-  background-color: #FFF;
+  background-color: #d8d7d7de;
   color: #444;
   font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -28,7 +28,8 @@ body {
 .body_container {
   padding: 0 60px;
   max-width: 1150px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background: #ffffffa3; }
 
 .content_container {
   padding-right: 50px;
