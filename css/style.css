@@ -18,7 +18,7 @@ html, button, input, select, textarea,
   font-family: "PingFangSC-Regular", Helvetica, "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", sans-serif !important; }
 
 body {
-  background-color: #d8d7d7de;
+  background: #f5f6f7;
   color: #444;
   font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -29,7 +29,7 @@ body {
   padding: 0 60px;
   max-width: 1150px;
   margin: 0 auto;
-  background: #ffffffa3; }
+  background: #fff; }
 
 .content_container {
   padding-right: 50px;
@@ -58,7 +58,7 @@ div {
 #header {
   padding: 58px 0 0;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 4px solid #6f5e5e;
   position: relative; }
   #header .site-name {
     margin-bottom: 40px; }
@@ -76,7 +76,7 @@ div {
       margin: .2em 0 0;
       color: #999; }
   #header #nav-menu {
-    margin: 10px 0 -1px;
+    margin: 10px 0 0px;
     padding: 0;
     position: absolute;
     right: 0;
