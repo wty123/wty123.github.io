@@ -58,7 +58,7 @@ div {
 #header {
   padding: 58px 0 0;
   text-align: left;
-  border-bottom: 4px solid #6f5e5e;
+  border-bottom: 2px solid #f5f6f7;
   position: relative; }
   #header .site-name {
     margin-bottom: 40px; }
@@ -95,14 +95,18 @@ div {
         border-bottom-color: #fff; }
 
 #sidebar {
-  border-left: 1px solid #ddd;
+  border-bottom: 2px solid #f5f6f7;
   padding-left: 35px;
   margin-top: 40px;
   padding-bottom: 20px;
   word-wrap: break-word; }
   #sidebar .widget {
+    border: 1px solid;
+    box-shadow: 13px -6px 11px #bdb6b6;
+    border-radius: 6px;
     margin-bottom: 30px; }
     #sidebar .widget .widget-title {
+      padding-left: 15px;
       color: #6E7173;
       line-height: 2.7;
       margin-top: 0;
@@ -127,7 +131,7 @@ div {
       list-style: none;
       padding: 0; }
       #sidebar .widget ul li {
-        margin: 5px 0;
+        margin: 5px 30px;
         line-height: 1.5; }
     #sidebar .widget .category-list-count {
       padding-left: 5px;
@@ -162,7 +166,9 @@ div {
   color: #888; }
 
 .post {
-  padding: 25px 0 15px; }
+  margin-bottom: 17px;
+  border-radius: 5px;
+  padding: 15px 12px 35px 24px; }
   .post .post-title {
     margin: 0;
     color: #555;
