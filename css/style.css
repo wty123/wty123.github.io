@@ -101,9 +101,6 @@ div {
   padding-bottom: 20px;
   word-wrap: break-word; }
   #sidebar .widget {
-    border: 1px solid;
-    box-shadow: 4px 4px 14px #3e3b3b;
-    border-radius: 6px;
     margin-bottom: 30px; }
     #sidebar .widget .widget-title {
       padding-left: 15px;
